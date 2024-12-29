@@ -3,12 +3,14 @@ ssh-keygen
 step2:
 cd .ssh
 ls
-copy the key of public
+Authorized key id_rsa id_rsa.pub
+cat id_rsa.pub
+copy the key of id_rsa.pub
 step3:
 gGo to the server2 
 cd .ssh
 vi Authorized key
-paste the key of public
+paste the cat(id_rsa.pub)
 step4:
 Go to the server1
 And login to the server2 within server1 we can use these command
