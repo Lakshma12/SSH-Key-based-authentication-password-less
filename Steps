@@ -1,0 +1,16 @@
+step1: generate keys in server1
+ssh-keygen
+step2:
+cd .ssh
+ls
+copy the key of public
+step3:
+gGo to the server2 
+cd .ssh
+vi Authorized key
+paste the key of public
+step4:
+Go to the server1
+And login to the server2 within server1 we can use these command
+ssh user@remote_server_ip_address
+ssh  ubuntu@172.168.0.1
